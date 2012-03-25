@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:ng="http://angularjs.org" lang="en" ng:app="app" ng:init="">
+  <head>
+    <meta charset="utf-8">
+    <title ng:bind-template="Node-Angular {{pageTitle}}">SeedApp</title>
+    <link href="/css/main.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div>
+      <ng:view></ng:view>
+    </div>
+    <script type="text/javascript" src="javascripts/vendor/angular-1.0.0rc2.min.js" ng:autobind></script>
+    <script type="text/javascript" src="javascripts/app.js"></script>
+  </body>
+</html>
