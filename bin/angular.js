@@ -44,6 +44,4 @@ switch(command) {
     break;
 };
 
-process.exit(0);
-
 /* EOF */
