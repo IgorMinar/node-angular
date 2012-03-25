@@ -14,8 +14,9 @@ Generate New Project:
 ```bash
 $ angular new blog && cd blog
 $ npm install
-$ angular server 8080
-$ open http://localhost:8080/
+$ npm test
+$ angular server 9000
+$ open http://localhost:9000/
 ```
 
 ## License (MIT)
