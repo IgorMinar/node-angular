@@ -33,7 +33,7 @@ switch(command) {
   case 'server':
   case '-s':
   case '--server':
-    angular.server();
+    angular.server(args);
     break;
   case 'h':
   case 'help':

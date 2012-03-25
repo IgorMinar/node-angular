@@ -16,7 +16,7 @@
     "node":">= 0.6.14 < 0.7.0"
   },
   "bin" : {
-    "angular":"./bin/angular.js",
+    "angular":"./bin/angular.js"
   },
   "dependencies":{
     "mongoose":"2.5.13",
