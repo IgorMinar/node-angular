@@ -6,14 +6,14 @@
   ],
   "homepage":"http://github.com/edwardhotchkiss/node-angular",
   "description":"Node.JS + Angular.JS project generator",
-  "version":"0.0.1",
+  "version":"0.0.1-2",
   "repository":{
     "type":"git",
     "url":"git://github.com/edwardhotchkiss/node-angular.git"
   },
   "keywords":["mvc","angular","routing", "angular.js"],
   "engines":{
-    "node":">= 0.6.14 < 0.7.0"
+    "node":">= 0.6.0 < 0.7.0"
   },
   "main": "./lib/index",
   "bin" : {
