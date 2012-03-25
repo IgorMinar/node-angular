@@ -11,7 +11,9 @@ switch(command) {
   case 'version':
   case '-v':
   case '--version':
-    console.log(angular.version().green);
+    angular.version(function(version) {
+      console.log(version.green);
+    });
     break;
   case 'n':
   case 'new':
