@@ -16,8 +16,8 @@ vows.describe('general module tests').addBatch({
     topic:function(){ 
       return angular;
     },
-    '"node-angular" should be a function':function(topic){
-      assert.isFunction(topic);
+    '"node-angular" should be an object with methods':function(topic){
+      assert.isObject(topic);
     }
   }
 }).export(module);
