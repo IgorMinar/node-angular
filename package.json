@@ -15,7 +15,7 @@
   "engines":{
     "node":">= 0.6.14 < 0.7.0"
   },
-  "main":"./lib/node-angular",
+  "main": "./lib/index",
   "bin" : {
     "angular":"./bin/angular.js"
   },

@@ -2,7 +2,7 @@
 
 var args = process.argv.slice(2)
   , command = args.shift()
-  , angular = new require('../lib/node-angular');
+  , angular = require('../lib/');
 
 require('colors');
 
