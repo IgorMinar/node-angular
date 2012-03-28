@@ -12,8 +12,7 @@ $ sudo npm install angular -g
 Generate New Project:
 
 ```bash
-$ angular new blog && cd blog
-$ angular g model post title content hits
+$ angular new myapp && cd myapp
 $ npm install
 $ npm test
 $ angular server 9000
