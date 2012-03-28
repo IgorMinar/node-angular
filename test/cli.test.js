@@ -16,7 +16,7 @@ vows.describe('node-angular CLI tests').addBatch({
     },
     'stdout should display a local env linking':function (error, stdout, stderr) {
       console.log(stdout);
-      assert.equal(/\/usr\/local\/bin\/angular ->/mi.test(stdout), true);
+      assert.equal(/\/bin\/angular ->/mi.test(stdout), true);
     },
     'an empty stderr':function (error, stdout, stderr) {
       assert.equal(stderr.length, 0);
