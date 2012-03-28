@@ -9,14 +9,14 @@ vows.describe('node-angular CLI tests').addBatch({
   'npm link': {
     topic: function() {
       var self = this;
-      exec('npm link angular', self.callback);
+      exec('sudo npm link', self.callback);
     },
     'should have no errors':function (error, stdout, stderr) {
       assert.isNull(error);
     },
-    'with a response code of 200':function (error, stdout, stderr) {
+    'stdout should display a local env linking':function (error, stdout, stderr) {
       console.log(stdout);
-      assert.equal(/\.\/node_modules\/angular ->/mi.test(stdout), true);
+      assert.equal(/\/usr\/local\/bin\/angular ->/mi.test(stdout), true);
     },
     'an empty stderr':function (error, stdout, stderr) {
       assert.equal(stderr.length, 0);
