@@ -6,7 +6,7 @@
   ],
   "homepage":"http://github.com/edwardhotchkiss/node-angular",
   "description":"Node.JS + Angular.JS project generator",
-  "version":"0.0.5",
+  "version":"0.0.1-14",
   "repository":{
     "type":"git",
     "url":"git://github.com/edwardhotchkiss/node-angular.git"
