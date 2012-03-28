@@ -13,7 +13,7 @@ Generate New Project:
 
 ```bash
 $ angular new blog && cd blog
-$ angular g scaffold post title content
+$ angular g model post title content hits
 $ npm install
 $ npm test
 $ angular server 9000
